@@ -1,6 +1,14 @@
 {
     "compilerOptions": {
         "target": "es2020",
-        "types": ["node", "webdriverio/sync", "@wdio/mocha-framework", "mocha", "expect-webdriverio"],
+        "types": [
+            "node", 
+            "webdriverio/sync", 
+            "@wdio/mocha-framework", 
+            "mocha", 
+            "expect-webdriverio"
+        ],
+        "moduleResolution": "Node",
+        "allowSyntheticDefaultImports": true
     }
 }
