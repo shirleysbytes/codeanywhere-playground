@@ -4,7 +4,7 @@ describe('Scrape', () => {
     it('should load Target', async () => {
         await browser.setWindowSize(1920, 1080)
         await browser.url("https://www.target.com/p/playstation-5-console/-/A-81114595#lnk=sametabhttps://www");
-        await browser.saveScreenshot(".screenshots/PS5.png")
+        await browser.saveScreenshot("./screenshots/PS5.png")
         
         
         // await LoginPage.open();
