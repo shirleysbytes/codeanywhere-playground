@@ -35,5 +35,5 @@ jobs:
       - name: Upload screenshot
         uses: actions/upload-artifact@v2
         with:
-          name: homework
-          path: PS5.png
+          name: screenshots
+          path: screenshots/
