@@ -6,6 +6,7 @@ describe('My Login application', () => {
         await browser.url("https://www.target.com/p/playstation-5-console/-/A-81114595#lnk=sametabhttps://www");
         await browser.saveScreenshot("./PS5.png")
         
+        
         await LoginPage.open();
 
         await LoginPage.login('tomsmith', 'SuperSecretPassword!');
